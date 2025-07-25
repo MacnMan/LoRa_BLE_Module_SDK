@@ -1,6 +1,6 @@
 # LoRa_BLE_Module_SDK
 
-![title image](./assets/image.jpeg)
+![title image](./assets/image.png)
 
 RF Control Pin : PC4
 RF Switch Power Pin : PC3
