@@ -14,7 +14,7 @@ RF Switch Power Pin : PC3
 | 1   | ANTEX        | RF     | RF INPUT/OUTPUT                                                                                                        |                                                  |
 | 2   | VSS/GND      | POWER  |                                                                                                                        |                                                  |
 | 3   | VCC          | POWER  |                                                                                                                        |                                                  |
-| 4   | NRST/P0.09   | I/O    | -                                                                                                                      | Internally Connected to nRF52810 P0.09           |
+| 4   | NRST/P0.09   | I/O    | Need To be Pulled Up by nRF52                                                                                          | Internally Connected to nRF52810 P0.09           |
 | 5   | VDDA/VREF+   | POWER  |                                                                                                                        |                                                  |
 | 6   | PA8          | I/O    | MCO, TIM1_CH1, SPI2_SCK/I2S2_CK, USART1_CK, LPTIM2_OUT, CM4_EVENTOUT                                                   |                                                  |
 | 7   | PA5          | I/O    | TIM2_CH1, TIM2_ETR, SPI2_MISO, SPI1_SCK, DEBUG_SUBGHZSPI_SCKOUT, LPTIM2_ETR, CM4_EVENTOUT                              |                                                  |
