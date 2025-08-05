@@ -53,3 +53,4 @@ RF Switch Power Pin : PC3
 | 40  | SWDCLK       | I/O    | nRF52810 Pin                                                                                                            |                                                  |
 | 41  | VSS/GND      | POWER  | -                                                                                                                      |                                                  |
 | 42  | SWDIO        | I/O    | nRF52810 Pin                                                                                                            |                                                  |
+| --  | PA1          | I/O    | TIM2_CH2, LPTIM3_OUT,I2C1_SMBA, SPI1_SCK,,USART2_RTS, LPUART1_RTS,DEBUG_PWR_REGLP2S,CM4_EVENTOUT                        | Internally Connected to nRF52810 P0.20           |                                                 
