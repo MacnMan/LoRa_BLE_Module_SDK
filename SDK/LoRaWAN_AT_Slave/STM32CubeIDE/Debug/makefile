@@ -73,8 +73,8 @@ all: main-build
 main-build: LoRaWAN_AT_Slave.elf secondary-outputs
 
 # Tool invocations
-LoRaWAN_AT_Slave.elf LoRaWAN_AT_Slave.map: $(OBJS) $(USER_OBJS) C:\en.stm32cubewl-v1-3-0\ (1)\STM32Cube_FW_WL_V1.3.0\Projects\NUCLEO-WL55JC\Applications\LoRaWAN\LoRaWAN_AT_Slave\STM32CubeIDE\STM32WL55JCIX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "LoRaWAN_AT_Slave.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\en.stm32cubewl-v1-3-0 (1)\STM32Cube_FW_WL_V1.3.0\Projects\NUCLEO-WL55JC\Applications\LoRaWAN\LoRaWAN_AT_Slave\STM32CubeIDE\STM32WL55JCIX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LoRaWAN_AT_Slave.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+LoRaWAN_AT_Slave.elf LoRaWAN_AT_Slave.map: $(OBJS) $(USER_OBJS) D:\GitHUB\LoRa_BLE_Module_SDK\SDK\LoRaWAN_AT_Slave\STM32CubeIDE\STM32WL55JCIX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "LoRaWAN_AT_Slave.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\GitHUB\LoRa_BLE_Module_SDK\SDK\LoRaWAN_AT_Slave\STM32CubeIDE\STM32WL55JCIX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LoRaWAN_AT_Slave.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
